@@ -4,6 +4,7 @@ def palindromo(texto):
 
 
 print("¿Es un palíndromo?", palindromo("hola"))
+print("¿Es un palíndromo?", palindromo("oso"))
 
 
 # La función palindromo recibe un parámetro texto que es la cadena que queremos comprobar si es un palíndromo o no. En primer lugar, se invierte la cadena utilizando la función reversed, que devuelve un objeto iterable de los caracteres de la cadena invertidos. Luego, estos caracteres se unen utilizando la función join para formar una cadena invertida. Por último, se compara esta cadena invertida con la cadena original para determinar si es un palíndromo o no.

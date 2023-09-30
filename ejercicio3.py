@@ -25,7 +25,8 @@ def coincidencias(frase, busqueda):
 print(
     "Numero de coincidencias en la frase:",
     coincidencias("Hola, que tal, soy RAMON pascual. ramon ramon", "que"),
-    coincidencias("Esta es mi frase", "paco")
+    coincidencias("Esta es mi frase", "paco"),
+    coincidencias("Esta es mi frase", "frase")
 )
 
 
